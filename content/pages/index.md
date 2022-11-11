@@ -6,7 +6,7 @@ sections:
     elementId: homepage-hero-1
     colors: colors-a
     title: XMaaS
-    subtitle: 'One platform, one community.'
+    subtitle: Feel the Magic of XMaaS
     actions:
       - type: Button
         label: Get Started
