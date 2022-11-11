@@ -20,7 +20,6 @@ sections:
         iconPosition: right
     media:
       type: ImageBlock
-      url: /images/logo.png
       altText: Image alt text
       caption: Image caption
     styles:
