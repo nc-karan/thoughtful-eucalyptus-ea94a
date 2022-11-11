@@ -121,10 +121,8 @@ sections:
         self:
           textAlign: left
       type: Badge
-    text: >-
-      One platform, one community, getting to the bottom line of everything
-      employment.  Figure out your benefits, practice for interviews, get
-      mentored, help peers, get helped in return.
+    text: |
+      One platform to make your christmas great.
     actions: []
     media:
       type: ImageBlock
