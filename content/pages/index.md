@@ -130,10 +130,6 @@ sections:
         label: Sign Up
         url: /
         style: primary
-      - type: Button
-        label: Learn More
-        url: /
-        style: secondary
     media:
       type: ImageBlock
       url: /images/Screenshot 2022-11-11 at 21.45.40.png
