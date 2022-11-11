@@ -98,7 +98,7 @@ sections:
     variant: variant-c
     colors: colors-h
     title: About us
-    subtitle: Featured people section example
+    subtitle: We enable christmas with the power of Cloud
     actions: []
     people:
       - content/data/team/desmond-eagle.json
