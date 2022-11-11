@@ -22,6 +22,7 @@ sections:
       type: ImageBlock
       altText: Image alt text
       caption: Image caption
+      url: /images/logo-58fb72b6.png
     styles:
       self:
         height: auto
