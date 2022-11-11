@@ -136,7 +136,7 @@ sections:
         style: secondary
     media:
       type: ImageBlock
-      url: /images/hero-3.jpg
+      url: /images/Screenshot 2022-11-11 at 21.45.40.png
       altText: Hero image
     styles:
       self:
