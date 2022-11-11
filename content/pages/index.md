@@ -54,7 +54,7 @@ sections:
     title: Feel the Magic of Christmas
     subtitle: ''
     badge:
-      label: This is the badge
+      label: We control christmas
       elementId: ''
       styles:
         self:
