@@ -51,7 +51,6 @@ sections:
   - elementId: ''
     colors: colors-f
     backgroundSize: inset
-    title: Christmas as a Service?
     text: >
       Learn how top tech companies have learned working remote using our
       product.
