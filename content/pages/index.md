@@ -60,8 +60,9 @@ sections:
         self:
           textAlign: left
       type: Badge
-    text: |
-      One platform to make your christmas great.
+    text: |+
+      #### Make christmas great again!
+
     actions: []
     media:
       type: ImageBlock
