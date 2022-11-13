@@ -5,8 +5,8 @@ sections:
   - type: HeroSection
     elementId: homepage-hero-1
     colors: colors-a
-    title: 'Love your work. Work loves you.'
-    subtitle: 'One platform, one community.'
+    title: XMaaS
+    subtitle: Feel the Magic of XMaaS
     actions:
       - type: Button
         label: Get Started
@@ -20,9 +20,9 @@ sections:
         iconPosition: right
     media:
       type: ImageBlock
-      url: /images/hero.png
       altText: Image alt text
       caption: Image caption
+      url: /images/logo-58fb72b6.png
     styles:
       self:
         height: auto
@@ -48,49 +48,43 @@ sections:
         textAlign: left
       actions:
         justifyContent: flex-start
-  - elementId: ''
-    colors: colors-f
-    backgroundSize: inset
-    title: Where did everyone go?
-    text: >
-      Learn how top tech companies have learned working remote using our
-      product.
+  - type: HeroSection
+    elementId: ''
+    colors: colors-h
+    title: Feel the Magic of Christmas
+    subtitle: ''
     badge:
-      type: Badge
-      label: Case study
+      label: We control christmas
+      elementId: ''
       styles:
         self:
           textAlign: left
-    actions:
-      - type: Button
-        label: Get Started
-        url: /
-        style: primary
-      - type: Link
-        label: Watch Video
-        url: /
-        showIcon: true
-        icon: playCircle
-        iconPosition: left
+      type: Badge
+    text: |+
+      #### Make christmas great again!
+
+    actions: []
+    media:
+      type: ImageBlock
+      url: /images/Screenshot 2022-11-11 at 21.45.40.png
+      altText: Hero image
     styles:
       self:
         height: auto
         width: wide
         margin:
-          - mt-24
+          - mt-0
           - mb-0
-          - ml-4
-          - mr-4
+          - ml-0
+          - mr-0
         padding:
-          - pt-16
-          - pb-16
-          - pl-16
-          - pr-16
-        justifyContent: center
-        flexDirection: row
+          - pt-12
+          - pb-12
+          - pl-4
+          - pr-4
         alignItems: center
-        borderRadius: xx-large
-        boxShadow: xx-large
+        justifyContent: center
+        flexDirection: col
       title:
         textAlign: left
       subtitle:
@@ -99,76 +93,36 @@ sections:
         textAlign: left
       actions:
         justifyContent: flex-start
-    type: FeatureHighlightSection
-    media:
-      url: /images/hero-3.jpg
-      altText: Where did everyone go?
-      caption: Team meeting
-      elementId: ''
-      styles:
-        self:
-          opacity: 100
-      type: ImageBlock
-  - colors: colors-h
-    subtitle: Trusted by
+  - type: FeaturedPeopleSection
     elementId: ''
-    images:
-      - type: ImageBlock
-        url: /images/apple.svg
-        altText: Apple
-        caption: Apple
-      - type: ImageBlock
-        url: /images/google-play.svg
-        altText: Google Play
-        caption: Google Play
-      - type: ImageBlock
-        url: /images/playstation.svg
-        altText: PlayStation
-        caption: PlayStation
-      - type: ImageBlock
-        url: /images/gatsby.svg
-        altText: Gatsby
-        caption: Gatsby
-      - type: ImageBlock
-        url: /images/xbox.svg
-        altText: Xbox
-        caption: Xbox
-      - type: ImageBlock
-        url: /images/skype.svg
-        altText: Skype
-        caption: Skype
-      - type: ImageBlock
-        url: /images/zcool.svg
-        altText: ZCOOL
-        caption: ZCOOL
-    spacing: 3
-    columns: 7
-    aspectRatio: 'auto'
-    showCaption: false
-    enableHover: false
+    variant: variant-c
+    colors: colors-h
+    title: About us
+    subtitle: We enable christmas with the power of Cloud
+    actions: []
+    people:
+      - content/data/team/desmond-eagle.json
     styles:
       self:
-        width: wide
         height: auto
+        width: wide
         margin:
           - mt-0
           - mb-0
+          - ml-0
+          - mr-0
         padding:
           - pt-12
-          - pb-24
+          - pb-12
           - pl-4
           - pr-4
         justifyContent: center
-        borderRadius: none
-        borderWidth: 0
-        borderStyle: none
-        borderColor: border-dark
       title:
         textAlign: center
       subtitle:
         textAlign: center
-    imageSizePx: 240
-    type: MediaGallerySection
+      actions:
+        justifyContent: center
   - colors: colors-a
     elementId: ''
     title: Remote doesn’t mean alone. Here are so great features
@@ -378,12 +332,13 @@ sections:
   - elementId: ''
     colors: colors-a
     variant: variant-b
-    title: We sometimes write things. You should read it, it might shed some
-      light on why we’re doing what we’re doing
+    title: >-
+      We sometimes write things. You should read it, it might shed some light on
+      why we’re doing what we’re doing
     actions:
       - type: Link
         label: See all posts
-        url: '/blog'
+        url: /blog
         showIcon: true
         icon: arrowRight
     posts:
